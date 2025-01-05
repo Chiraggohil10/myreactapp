@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import FoodApp from "./FoodApp"
+import WebTech from "./Qsp";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <p>this is my first react app</p>
-      </header>
+      <h1>I am the Parent tag</h1>
+      <FoodApp/>
+      <WebTech/>
     </div>
   );
 }
