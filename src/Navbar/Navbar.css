@@ -4,7 +4,8 @@
 .navbar{
     display: flex;
     align-items: center;
-    padding: 0px 100px;
+    justify-content: space-between;
+    padding: 0px 150px;
     height: 84px;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -23,13 +24,16 @@
 .inputboxs input{
     padding: 13px 16px;
     border: 1px solid #e0e0e0;
-    border-radius: 4px;
+    border-radius: 6px;
     margin-right: 5px;
     outline: none;
-    width: 230px;
+    width: 256.66px;
+    height: 48px;
+    padding-left: 50px; 
+    box-sizing: border-box;
 }
 .inputboxs{
-    padding: 0px 100px 0px 0px;
+    padding: 0px 50px 0px 0px;
 }
 .iconssin{
     position: relative;
@@ -42,7 +46,11 @@
     width: 20px;
     height: 20px;
     margin-left: 30px;
+    pointer-events: none;
 }
 .mainicons{
-    margin-left: 100px;
+    margin-left: 50px;
+}
+.inputboxs input::placeholder{
+    color: #b0b0b0;
 }

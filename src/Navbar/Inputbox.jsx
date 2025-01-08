@@ -4,9 +4,9 @@ function Inputbox() {
   return (
     <div className="inputboxs">
         <IoLocationOutline className="iconssin"/>
-        <input type="text" />
+        <input type="text" placeholder="Select Location"/>
         <CiSearch className="iconssin"/>
-        <input type="text" />
+        <input type="text" placeholder="Seach For Services"/>
     </div>
   )
 }
